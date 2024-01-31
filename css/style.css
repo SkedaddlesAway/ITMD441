@@ -20,5 +20,6 @@ body {
   text-align: center;
   padding: 10px;
   height: auto;
+  min-height: 50vh;
   background-color: #c6a211;
 }
