@@ -18,7 +18,7 @@ body {
 }
 .box2 {
   text-align: center;
-  padding: 20px;
-  height: 25vh;
+  padding: 10px;
+  height: auto;
   background-color: #c6a211;
 }
