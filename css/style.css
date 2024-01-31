@@ -2,15 +2,18 @@ body{
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.box{
+.box1{
     align-items: center;
     text-align: center;
     margin: auto;
-    padding-top: 20px;
-    width: 500px;
-    height: 200px;
-    background-color: rgb(57, 116, 81);
-    border: 30px;
-    border-style: solid;
-    border-color:rgb(161, 61, 22);
+    padding: 10px;
+    width:50vw;
+    height: 30vh;
+    background-color: rgb(22, 66, 40);
+}
+.box2{
+    align-content: center;
+    padding: auto;
+    height: 25vh;
+    background-color: rgb(78, 197, 128);
 }
