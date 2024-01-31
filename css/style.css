@@ -1,19 +1,24 @@
-body{
-    color: white;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+body {
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.box1{
-    align-items: center;
-    text-align: center;
-    margin: auto;
-    padding: 10px;
-    width:50vw;
-    height: 30vh;
-    background-color: rgb(22, 66, 40);
+.box1,
+.box2 {
+  border: 3px solid black;
 }
-.box2{
-    align-content: center;
-    padding: auto;
-    height: 25vh;
-    background-color: rgb(78, 197, 128);
+.box1 {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top:50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  background-color: #67a496;
+}
+.box2 {
+  text-align: center;
+  padding: 20px;
+  height: 25vh;
+  background-color: #c6a211;
 }
